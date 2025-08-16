@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skeez Sells</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      background: url('skeez-sells-final-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.3em;
+      text-shadow: 2px 2px 6px #000;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 1em;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .cashapp {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-size: 1.4em;
+      display: inline-block;
+      margin-bottom: 2em;
+    }
+
+    audio {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .track-info {
+      font-weight: bold;
+      margin-top: 8px;
+      font-size: 1em;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      .cashapp {
+        font-size: 1.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Skeez Sells</h1>
+  <p>Unlock exclusive web links. $9.99/month</p>
+  <div class="cashapp">$gimme7dat</div>
+
+  <audio controls autoplay loop>
+    <source src="fineshyt-audio.mp3" type="audio/mp3" />
+    Your browser does not support the audio element.
+  </audio>
+  <div class="track-info">Now Playing: Fineshyt by Dre Skeez</div>
+</body>
+</html>
